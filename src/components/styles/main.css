@@ -1,0 +1,43 @@
+.Home_maps {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+  }
+  
+  .leaflet-map-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Carusel {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+.pato{
+    margin-top: 2%;
+}
+  .porotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .porotos > div {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .porotos > div {
+      flex: 1 1 100%;
+    }
+  }
+  
+  

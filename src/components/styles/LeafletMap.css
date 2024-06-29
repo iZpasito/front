@@ -1,0 +1,13 @@
+.leaflet-map-container {
+  display: grid;
+  height: 100%;
+  padding: 5px;
+  z-index: 0;
+}
+
+.leaflet-map {
+  width: 100%;
+}
+
+
+  
